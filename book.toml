@@ -2,3 +2,6 @@
 title = "1337 Project Guides"
 authors = ["Blxee"]
 language = "en"
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
