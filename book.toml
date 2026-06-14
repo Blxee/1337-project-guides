@@ -7,3 +7,4 @@ language = "en"
 
 [output.html]
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
+additional-css = ["theme/custom.css"]
