@@ -27,8 +27,8 @@ Use this command for installing dependencies or commands that change the file sy
 
 #### Formats:
 
-* `RUN <command> [arg1] [arg2] ..`
-* `RUN ["<command>"[, "arg1"][, "arg2"] ..]`
+* `RUN <command> [arg1] [arg2] ..` : shell mode (runs the command using `sh -c`)
+* `RUN ["<command>"[, "arg1"][, "arg2"] ..]` : exec mode (runs the command as pid 1)
 
 
 
